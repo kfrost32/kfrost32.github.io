@@ -37,7 +37,7 @@
 /* Tables styled
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .ss-table-styled--wrapper{
-  box-shadow: 0 0 3px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
   padding: 20px;
 }
 .ss-table-styled tr:hover{
@@ -46,7 +46,9 @@
 .ss-table-styled th,.ss-table-styled td{
   padding: 20px 20px;
 }
-
+.ss-table-styled tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
 
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
