@@ -54,7 +54,7 @@ body {
 
 }
 .section-content{
-  padding-left:80px;
+  padding:80px;
 }
 .wrap-3{
   background-size: cover;
@@ -134,6 +134,9 @@ body {
   color: #131313;
   margin-right: 40px;
   font-size: 18px;
+}
+.nav a:last-child{
+  margin-right: 0px;
 }
 a.logos{
   background: linear-gradient(135deg, #f28b41 0%,#de5837 40%,#af5f31 100%);
