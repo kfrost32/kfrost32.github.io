@@ -53,6 +53,10 @@ body {
   font-weight: 600;
   border: 2px solid #fff;
   padding: 10px;
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
 
 .outbound-wrap{
@@ -109,6 +113,8 @@ a.logos{
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+  border-bottom: none;}
+
 }
 
 @-webkit-keyframes Gradient {
@@ -239,9 +245,14 @@ p.small{
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #00aeef;
-  text-decoration: none;
-}
+  background: linear-gradient(135deg, #f28b41,#de5837,#af5f31);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  border-bottom: 2px solid #f28b41;}
 a:hover {
   color: #0b9dd3;
 }
