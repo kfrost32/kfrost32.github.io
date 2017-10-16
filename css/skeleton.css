@@ -1,37 +1,4 @@
-/*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
 
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
-
-
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 20px; }
 body {
@@ -40,66 +7,50 @@ body {
   font-weight: 500;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-size: 24px;
-  color: #fff;
+  color: #131313;
   background: #fff;
+  -webkit-font-smoothing: antialiased;
 
 }
-.wrap-1{
-  padding: 50px 10% 0 10%;
-
-}
-.section{
-  box-shadow: rgba(0,0,0,0.3) 0 30px 100px 0;
+.br8{
   border-radius: 8px;
-
+}
+.work-section{
+  box-shadow: rgba(0,0,0,0.3) 0 30px 100px 0;
+  margin-bottom: 30px;
+  color: white;
 }
 .section-content{
-  padding:80px;
-}
-.wrap-3{
-  background-size: cover;
-  position: relative;
-  padding: 70px 0;
-  height: calc(90vh - 80px);
-  border-radius: 8px;
-}
-.wrap-3 h1,h2,h3,h4,p,a,li,span{
-  position:relative;
+  padding: 80px;
   z-index: 99;
+  position: relative;
 }
-.wrap-3 a{
-  color:white;
+.section-content h1{
+  color: #fff;
+}
+.section-content h2{
+  color: #fff;
+}
+.section-content p{
+  color: #fff;
+}
+.section-content a{
+  color: #fff;
+  font-size: 15px;
   font-weight: 600;
-  text-decoration: underline;
-  margin-bottom: 20px;
+  border: 2px solid #fff;
+  padding: 10px;
 }
-.wrap-3 a:hover{
-  color:white;
-  opacity: 0.8;
-}
-.main-wrap:after{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  content: '';
-  transition: all 1s;
-  background: rgba(238,114,71,0.6);
-  border-radius: 8px;
 
-}
-.main-wrap{
-  background: url('https://images.unsplash.com/photo-1471038688616-61af8a9255b0?dpr=1&auto=compress,format&fit=crop&w=1951&h=&q=80&cs=tinysrgb&htn=2&blend=EE7247&balph=100&bri=10') center center;
-
-}
 .outbound-wrap{
   background: url('https://images.unsplash.com/photo-1493799228497-1c99e413459b?dpr=1&auto=compress,format&fit=crop&w=1950&h=&q=80&cs=tinysrgb&htn=2&blend=e98b58&balph=100') center center;
+  position: relative;
+  border-radius: 8px;
 }
 .van-wrap{
   background: url('https://images.unsplash.com/photo-1486330071120-ba4e79e49431?dpr=1&auto=compress,format&fit=crop&w=1955&h=&q=80&cs=tinysrgb&htn=2&blend=EE7247&balph=100') center bottom;
-
+  position: relative;
+  border-radius: 8px;
 }
 .van-wrap:after{
   position: absolute;
@@ -117,6 +68,8 @@ body {
 .para-wrap{
   background-color: #4e84a8;
   background: url('https://images.unsplash.com/photo-1489877544105-f56e54296592?dpr=1&auto=compress,format&fit=crop&w=1952&h=&q=80&cs=tinysrgb&htn=2&blend=4e84a8&balph=100&bri=10') center center;
+  position: relative;
+  border-radius: 8px;
 }
 .para-wrap:after{
   position: absolute;
@@ -132,7 +85,6 @@ body {
 
 }
 .nav{
-  text-align:center;
   padding-top: 50px;
 }
 
@@ -145,28 +97,68 @@ body {
   margin-right: 0px;
 }
 a.logos{
-  background: linear-gradient(135deg, #f28b41 0%,#de5837 40%,#af5f31 100%);
+  background: linear-gradient(135deg, #f28b41,#de5837,#af5f31);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
+  font-size: 24px;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .7rem;
-  font-weight: 900;
-  font-family: Rubik; }
-h1 { font-size:70px; line-height: 1.1;  letter-spacing: -.1rem;}
+  font-weight: 600;
+  z-index: 99; }
+h1 { font-size:60px; line-height: 1.1;  letter-spacing: -.1rem;}
 h2 { font-size: 1.6rem; line-height: 1.1;  }
 h3 { font-size: 1.3rem; line-height: 1.3;  }
 
 
 /* Larger than phablet */
 @media (min-width: 1500px) {
-  h1 { font-size: 150px; }
+  h1 { font-size: 70px; }
   h2 { font-size: 70px; font-weight: 700; }
   h3 { font-size: 1rem; }
 }
@@ -214,7 +206,8 @@ h3 { font-size: 1.3rem; line-height: 1.3;  }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+  color: 999; }
 p.small{
   font-size: 15px;
   line-height: 1.7;
@@ -458,34 +451,3 @@ li {
   margin: 0px !important;
   padding: 0px !important;
 }
-
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (max-width: 550px) {
-  .button.jumbo{
-  font-size: 14px;
-  }
-}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
