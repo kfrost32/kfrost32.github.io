@@ -108,6 +108,12 @@ body {
   position: relative;
   border-radius: 8px;
 }
+.bolt-wrap{
+background-color: #4e84a8;
+background: url('https://images.unsplash.com/photo-1474925558543-e7a5f06e733e?w=1950') center center;
+position: relative;
+border-radius: 8px;
+}
 
 .nav{
   padding-top: 50px;
