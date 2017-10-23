@@ -27,6 +27,11 @@ body {
   max-width: 80vw;
   padding: 0 50px;
 }
+@media (max-width: 1500px){
+  .page-wrap{
+    max-width: 90vw;
+  }
+}
 @media (max-width: 768px){
   .page-wrap{
     max-width: 100%;
