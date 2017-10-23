@@ -53,6 +53,7 @@ body {
   padding: 0px;
   color:#131313;
   margin: 0;
+  font-size: 15px;
 }
 .work-section{
   box-shadow: rgba(0,0,0,0.3) 0 30px 100px 0;
@@ -72,7 +73,7 @@ body {
   animation: Gradient 15s ease infinite;
 }
 .section-content{
-  padding: 80px;
+  padding: 50px;
   z-index: 99;
   position: relative;
 }
