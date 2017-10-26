@@ -45,7 +45,7 @@ hr{
   }
 }
 .intro{
-  height: calc(100vh - 83px);
+  height: calc(100vh - 135px);
   background: url('https://static1.squarespace.com/static/5452b2ade4b03c3bc2fbeee4/5988c74ccd0f68e91cd0f4fe/58939fb4e3df28b58100e956/1502140835611/Front+Range+Flight-05718.jpg?format=2500w')center center no-repeat;
   background-size: cover;
   position: relative;
