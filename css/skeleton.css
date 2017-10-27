@@ -179,6 +179,12 @@ hr{
   background: url('https://images.unsplash.com/photo-1489877544105-f56e54296592?dpr=1&auto=compress,format&fit=crop&w=1952&h=&q=80&cs=tinysrgb') center center;
   position: relative;
 }
+
+.wedding-wrap{
+  background-color: #4e84a8;
+  background: url('https://images.unsplash.com/photo-1490049570171-c9d6d06b4a96?auto=format&fit=crop&w=1950&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') center center;
+  position: relative;
+}
 .bolt-wrap{
 background-color: #4e84a8;
 background: url('https://images.unsplash.com/photo-1474925558543-e7a5f06e733e?w=1950') center center;
