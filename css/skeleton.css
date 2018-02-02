@@ -279,7 +279,6 @@ a {
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
-  border-bottom: 2px solid #f28b41;}
 a:hover {
   color: #0b9dd3;
 }
