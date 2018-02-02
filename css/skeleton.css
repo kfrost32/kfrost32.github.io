@@ -5,7 +5,7 @@ html {
 body {
   font-size: 1em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 300;
   font-family: 'stevie-sans', Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: rgba(0, 0, 5, 0.9);
