@@ -6,7 +6,7 @@ body {
   font-size: 1em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.4;
   font-weight: 500;
-  font-family: 'stevie-sans', 'acumin-pro', Helvetica, Arial, sans-serif;
+  font-family: 'stevie-sans', Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: rgba(0, 0, 5, 0.9);
   -webkit-font-smoothing: antialiased;
@@ -91,7 +91,6 @@ hr{
   padding: 0px;
   color:#131313;
   margin: 0;
-  font-family: 'acumin-pro';
   font-size: 15px;
 }
 .work-section{
