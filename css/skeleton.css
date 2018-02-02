@@ -8,7 +8,7 @@ body {
   font-weight: 300;
   font-family: 'stevie-sans', Helvetica, Arial, sans-serif;
   font-size: 24px;
-  color: rgba(0, 0, 5, 0.9);
+  color: rgba(0, 0, 0,);
   -webkit-font-smoothing: antialiased;
 
 }
@@ -173,11 +173,6 @@ hr{
   background: rgba(238,114,71,0.6);
 
 }
-.para-wrap{
-  background-color: #4e84a8;
-  background: url('https://images.unsplash.com/photo-1489877544105-f56e54296592?dpr=1&auto=compress,format&fit=crop&w=1952&h=&q=80&cs=tinysrgb') center center;
-  position: relative;
-}
 
 .wedding-wrap{
   background-color: #4e84a8;
@@ -215,42 +210,6 @@ a.logos{
   animation: Gradient 15s ease infinite;
   border-bottom: none;}
 
-}
-
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%
-  }
-  50% {
-    background-position: 100% 50%
-  }
-  100% {
-    background-position: 0% 50%
-  }
-}
-
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%
-  }
-  50% {
-    background-position: 100% 50%
-  }
-  100% {
-    background-position: 0% 50%
-  }
-}
-
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%
-  }
-  50% {
-    background-position: 100% 50%
-  }
-  100% {
-    background-position: 0% 50%
-  }
 }
 
 /* Typography
