@@ -8,7 +8,7 @@ body {
   font-weight: 300;
   font-family: 'stevie-sans', Helvetica, Arial, sans-serif;
   font-size: 24px;
-  color: rgba(0, 0, 0,);
+  color: rgba(0, 0, 0);
   -webkit-font-smoothing: antialiased;
 
 }
@@ -240,7 +240,6 @@ h3 { font-size: 20px; line-height: 1.3;  }
 
 p {
   margin-top: 0;
-  color: #7b5d5d;
   font-weight: 300;}
 p.small{
   font-size: 16px;
