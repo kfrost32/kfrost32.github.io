@@ -44,7 +44,9 @@ hr{
     font-size: 22px !important;
   }
 }
-
+.intro{
+  height: calc(100vh - 133px);
+}
 .intro-content{
   padding-top: 20vh;
 }
