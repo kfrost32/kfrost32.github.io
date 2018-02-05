@@ -193,9 +193,10 @@ a.logos{
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
-  border-bottom: none;}
-
+  border-bottom: none;
 }
+
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
