@@ -137,28 +137,23 @@ hr{
   font-size: 18px;
 }
 
+.work-wrap{
+  position: relative;
+}
+.work-wrap::after{
+  content: '';
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  background: rgba(0,0,0,0.25)
 
 .outbound-wrap{
   background: url('https://www.theoutbound.com/assets/promo/arch-9860c99c125528b29eb6acad50afab0bb9af806a315cfca02f10d97c12ef0f0b.jpg') center center no-repeat;
   position: relative;
   background-size: cover;
-}
-.van-wrap{
-  background: url('https://images.unsplash.com/photo-1486330071120-ba4e79e49431?dpr=1&auto=compress,format&fit=crop&w=1200&h=800&q=80&cs=tinysrgb') center bottom no-repeat;
-  position: relative;
-  background-size: cover;
-}
-.van-wrap:after{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  content: '';
-  transition: all 1s;
-  background: rgba(238,114,71,0.6);
-
 }
 .forest-wrap{
   background-color: #4e84a8;
