@@ -149,7 +149,7 @@ hr{
   position: absolute;
   z-index: 1;
   background: rgba(0,0,0,0.25)
-
+}
 .outbound-wrap{
   background: url('https://www.theoutbound.com/assets/promo/arch-9860c99c125528b29eb6acad50afab0bb9af806a315cfca02f10d97c12ef0f0b.jpg') center center no-repeat;
   position: relative;
