@@ -26,7 +26,9 @@ h1{
   img{
   }
 }
-
+.work-wrap{
+  position: relative;
+}
 .work-wrap :after{
   content: '';
   top:0;
