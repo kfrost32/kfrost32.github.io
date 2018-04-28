@@ -111,11 +111,21 @@ hr{
 
 .nav a{
   color: #000;
-  margin-right: 40px;
   font-size: 18px;
+  text-decoration: none;
 }
 .nav a:last-child{
   margin-right: 0px;
+}
+
+.nav-links{
+  float:right;
+}
+.nav-link{
+  margin-right: 20px;
+}
+.nav-link:last-child{
+  margin-right:0px;
 }
 
 
